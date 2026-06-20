@@ -1,0 +1,24 @@
+name: Build Metrics
+
+description: Analyze .NET project metrics
+
+outputs:
+
+  projects:
+    description: Number of projects
+
+  files:
+    description: Number of source files
+
+  lines:
+    description: Number of lines
+
+  branch:
+    description: Branch
+
+  sha:
+    description: Commit SHA
+
+runs:
+  using: node20
+  main: index.js
