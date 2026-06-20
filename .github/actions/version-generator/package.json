@@ -1,0 +1,10 @@
+{
+  "name": "version-generator",
+  "version": "1.0.0",
+  "description": "Generate Docker metadata",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
+  }
+}

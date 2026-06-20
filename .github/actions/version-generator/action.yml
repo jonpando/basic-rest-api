@@ -1,0 +1,27 @@
+name: Version Generator
+
+description: Generates Docker metadata
+
+outputs:
+
+  docker-tag:
+    description: Docker tag
+
+  branch:
+    description: Branch name
+
+  sha:
+    description: Commit SHA
+
+  repository:
+    description: Repository name
+
+  owner:
+    description: Repository owner
+
+  timestamp:
+    description: Timestamp
+
+runs:
+  using: node20
+  main: index.js
